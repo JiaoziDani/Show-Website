@@ -25,6 +25,8 @@ html {
     scroll-padding-top: 5.5rem;
 }
 
+/* Header */
+
 header {
     position: fixed;
     top: 0;
@@ -60,4 +62,97 @@ header .navbar a.active,
 header .navbar a:hover {
     color: var(--clr-light);
     background: var(--clr-cerulean);
+}
+
+header .icons i,
+header .icons a {
+    cursor: pointer;
+    margin-left: .5rem;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    width: 4.5rem;
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--clr-light);
+    border-radius: 50%;
+    background: var(--clr-cerulean);
+}
+
+header .icons i:hover,
+header .icons a:hover {
+    color: var(--clr-light);
+    background: var(--clr-cerulean);
+    transform: rotate(360deg);
+}
+
+header .icons #menu-hamburger{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media(max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 1rem 2rem;
+    }
+}
+
+@media(max-width: 768px) {
+    header .icons #menu-hamburger {
+        display: none;
+    }
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--clr-dark);
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding: 1rem;
+        clip-path: polygon(0 0, 100%);
+    }
+    header .navbar a {
+        display: block;
+        padding: 1.5rem;
+        margin: 1rem;
+        font-size: 2rem;
+        background: var(--clr-cerulean);
+    }
+}
+
+@media(max-width: 468px) {
+    html {
+        font-size: 50%;
+    }
 }
