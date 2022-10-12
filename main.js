@@ -53,9 +53,9 @@ var swiper = new Swiper(".home-slider", {
   });
 
   
-  var swiper = new Swiper(".child-slider", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+  var swiper = new Swiper(".movies-slider", {
+    slidesPerView: 3,
+    spaceBetween: 55,
     centeredSlides: true,
     autoplay: {
       delay: 2500,
