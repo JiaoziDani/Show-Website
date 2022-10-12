@@ -68,9 +68,9 @@ var swiper = new Swiper(".home-slider", {
     loop:true
   });
 
-  var swiper = new Swiper(".family-slider", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+  var swiper = new Swiper(".sol-slider", {
+    slidesPerView: 3,
+    spaceBetween: 55,
     centeredSlides: true,
     autoplay: {
       delay: 1500,
