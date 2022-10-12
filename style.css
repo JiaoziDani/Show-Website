@@ -175,7 +175,7 @@ header .icons #menu-bars{
 }
 
 .anime .box{
-    width: 300px;
+    width: 350px;
     height: 180px;
     border: var(--clr-dark);
     border-radius: 1rem;
@@ -199,17 +199,20 @@ header .icons #menu-bars{
 }
 
 .action{
-    padding:5rem;
+    padding: 5rem;
 }
 
 .action .box{
-   width:299px;
-   height:168px;
+   width:350px;
+   height:180px;
+   border: var(--clr-dark);
+   border-radius: 1rem;
+   border-spacing: 20px;
 }
 
 .action .content h3{
     font-size: 1.7rem;
-    color: var(--clr-light);
+    color: var(--clr-cerulean);
     text-transform: uppercase;
     text-align: center;
 }

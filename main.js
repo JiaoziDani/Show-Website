@@ -23,7 +23,7 @@ var swiper = new Swiper(".home-slider", {
 
   var swiper = new Swiper(".anime-slider", {
     slidesPerView: 3,
-    spaceBetween: 150,
+    spaceBetween: 55,
     centeredSlides: true,
     autoplay: {
       delay: 3500,
@@ -38,8 +38,8 @@ var swiper = new Swiper(".home-slider", {
 
 
   var swiper = new Swiper(".action-slider", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+    slidesPerView: 3,
+    spaceBetween: 55,
     centeredSlides: true,
     autoplay: {
       delay: 3500,
