@@ -166,7 +166,7 @@ header .icons #menu-bars{
     padding: 1rem 0;
     opacity: 75%;
     background-color: var(--clr-dark);
-    text-transform: lowercase;
+    text-transform: initial;
 }
 
 .anime{
