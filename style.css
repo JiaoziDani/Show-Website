@@ -81,7 +81,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: var(--clr-dark);
-    background: var(--clr-cerulean);
+    background: var(--clr-light);
     transform: rotate(360deg);
 }
 
@@ -89,10 +89,54 @@ header .icons #menu-bars{
     display: none;
 }
 
+.home{
+    padding: 0;
+}
 
+.home .box{
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+}
 
+.home .box {
+    justify-content: flex-start;
+}
 
+.home .box.second {
+    justify-content: flex-end;
+}
 
+.home .box .content {
+    width: 50rem;
+}
+
+.home .box .content h3{
+    font-size: 6rem;
+    color: var(--clr-cerulean);
+    padding-top: .5rem;
+    text-transform: uppercase;
+    background-color: var(--clr-dark);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    opacity: 75%;
+}
+
+.home .box .content p{
+    line-height: 2;
+    color: var(--clr-light);
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    background-color: var(--clr-dark);
+    box-shadow: var(--box-shadow);
+    opacity: 75%;
+}
 
 
 
