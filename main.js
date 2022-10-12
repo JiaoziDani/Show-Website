@@ -11,7 +11,7 @@ var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      delay: 7500,
+      delay: 4500,
       disableOnInteraction: false,
     },
     pagination: {
@@ -22,11 +22,11 @@ var swiper = new Swiper(".home-slider", {
   });
 
   var swiper = new Swiper(".anime-slider", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+    slidesPerView: 3,
+    spaceBetween: 150,
     centeredSlides: true,
     autoplay: {
-      delay: 4500,
+      delay: 3500,
       disableOnInteraction: false,
     },
     pagination: {

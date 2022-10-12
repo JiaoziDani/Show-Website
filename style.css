@@ -157,6 +157,7 @@ header .icons #menu-bars{
     text-transform: uppercase;
     opacity: 75%;
     background-color: var(--clr-dark);
+    text-align: center;
 }
 
 .home .box .content p{
@@ -174,21 +175,26 @@ header .icons #menu-bars{
 }
 
 .anime .box{
-    width: 299px;
-    height:168px;
+    width: 300px;
+    height: 180px;
+    border: var(--clr-dark);
+    border-radius: 1rem;
+    border-spacing: 20px;
 }
 
 .anime .content h3{
-    font-size: 1.7rem;
-    color: var(--clr-light);
+    font-size: 2.0rem;
+    color: var(--clr-cerulean   );
     text-transform: uppercase;
     text-align: center;
 }
 
 .anime .content P{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color:var(--clr-light);
     text-decoration: none;
+    text-transform: initial;
+    text-align: center;
 
 }
 
