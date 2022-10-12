@@ -80,12 +80,12 @@ header .icons a {
 
 header .icons i:hover,
 header .icons a:hover {
-    color: var(--clr-light);
+    color: var(--clr-dark);
     background: var(--clr-cerulean);
     transform: rotate(360deg);
 }
 
-header .icons #menu-hamburger{
+header .icons #menu-bars{
     display: none;
 }
 
@@ -128,8 +128,8 @@ header .icons #menu-hamburger{
 }
 
 @media(max-width: 768px) {
-    header .icons #menu-hamburger {
-        display: none;
+    header .icons #menu-bars {
+        display: inline-block;
     }
     header .navbar {
         position: absolute;
@@ -140,14 +140,19 @@ header .icons #menu-hamburger{
         border-top: .1rem solid rgba(0,0,0,.2);
         border-bottom: .1rem solid rgba(0,0,0,.2);
         padding: 1rem;
-        clip-path: polygon(0 0, 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
     header .navbar a {
         display: block;
         padding: 1.5rem;
         margin: 1rem;
         font-size: 2rem;
-        background: var(--clr-cerulean);
+        background: var(--clr-dark);
     }
 }
 
