@@ -3,105 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width-device-width", initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anime Website</title>
-    
 
-    <!-- Font Awesome Link -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+    <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    
-    <!-- Custom  css file link -->
+
+    <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <!-- Header -->
+    
+    <!-- header section start -->
     <header>
         <a href="#" class="logo"><i class="fas fa-infinity"></i>Anime Prime</a>
         <nav class="navbar">
-            <a class="active" href="#home">home</a>
-            <a href="#anime">anime</a>
-            <a href="#action">action</a>
-            <a href="#child">child</a>
-            <a href="#family">family</a>
+             <a href="index.html">home</a>
+             <a href="#anime">anime</a>
+             <a href="#action">action</a>
+             <a href="#child">child</a>
+             <a href="#family">family</a>
         </nav>
         <div class="icons">
             <i class="fas fa-bars" id="menu-bars"></i>
             <i class="fas fa-search" id="search-icon"></i>
-            <a href ="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-heart"></a>
         </div>
     </header>
 
-    <!-- Home Section -->
+<!-- home section start -->
+
 <section class="home" id="home">
+
     <div class="swiper home-slider">
+
         <div class="swiper-wrapper">
 
             <div class="swiper-slide">
-              <div class="box" style="background-image:url(img/anime-img1.webp);">
+                <div class="box " style="background: url(img/home-anime-img1.webp) no-repeat;">
                     <div class="content">
                         <h3>Yuru Camp</h3>
-                        <p>While the perfect getaway for most girls her age might be a fancy vacation with their loved ones, <br>
-                            Rin Shima's ideal way of spending her days off is camping alone at the base of Mount Fuji. <br>
-                            From pitching her tent to gathering firewood, she has always done everything by herself, and has no <br>
-                            plans of leaving her little solitary world. <br>
+                        <p>While the perfect getaway for most girls her age might be a fancy vacation with their loved ones. <br>
                             This is the story of Rin, Nadeshiko, and their friends as they further explore the joys of camping.</p>
-                         <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn">Download</a>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-              <div class="box second" style="background-image:url(img/anime-img2.jpg);">
+                <div class="box second" style="background: url(img/home-anime-img2.jpg) no-repeat;">
                     <div class="content">
                         <h3>Non Non Biyori</h3>
                         <p>Hotaru Ichijou's lifestyle completely changes when she leaves Tokyo and moves with her family to the isolated Asahigaoka village.<br>
-                            Her new school has only five students including herself, all sharing a single classroom regardless of grade level.<br>
-                            Hotaru finds herself captivated by the countryside's charm thanks to her four<br>
-                            unique schoolmates with whom she quickly forms a genuine bond.<br>
                             This is the story of a cheerful little group that enlivens the ordinary days in Asahigaoka.</p>
-                         <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn">Download</a>
                     </div>
                 </div>
             </div>
 
             <div class="swiper-slide">
-              <div class="box" style="background-image:url(img/anime-img3.jpg);">
+                <div class="box " style="background: url(img/home-anime-img3.jpg) no-repeat;">
                     <div class="content">
                         <h3>Azumanga Daioh</h3>
                         <p>Chiyo Mihama begins her high school career as one of the strangest students in her freshman class.<br>
                             There certainly isn't a shortage of peculiar girls in Yukari-sensei's homeroom class.<br>
-                            Accompanying Chiyo are students like Tomo Takino, an energetic tomboy with more enthusiasm than brains.<br>
-                            Koyomi Mizuhara, Tomo's best friend whose temper has a fuse shorter than Chiyo; and Sakaki, a tall, athletic beauty whose intimidating looks.<br>
-                            In addition, transfer student Ayumu Kasuga, a girl with her head stuck in the clouds.<br>
                             Together, this lovable group of girls experience the ups and downs of school life.</p>
-                         <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn">Download</a>
                     </div>
                 </div>
             </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- anime section start -->
+<section class="anime" id="anime">
+    <h1 class="heading">Popular on Anime</h1>
+    <div class="swiper anime-slider">
+        <div class="swiper-wrapper">
+          
+            <div class="swiper-slide">
+                <div class="box" style="background: url(img/anime-img-1.jpg) no-repeat;"></div>
+                <div class="content">
+                    <h3>Naruto</h3>
+                    <p>Guided by the spirit demon within him, orphaned Naruto learns 
+                    to harness his powers as a ninja in this anime adventure series.</p>
+                    <a href="#" class="btn">Download</a>
+                </div>
+            </div>
+
 
         </div>
     </div>
 </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Custom js file link -->
-    <script src="main.js"></script>
+<!-- link swiper file -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+<script src="main.js"></script>
 </body>
-
 </html>
