@@ -305,6 +305,7 @@ header .icons #menu-bars{
 .video-container video{
     width: 100%;
     aspect-ratio: 16/9;
+    height: 500px;
 }
 
 .about{
@@ -372,23 +373,23 @@ header .icons #menu-bars{
     color: var(--clr-light);
 }
 
-.downlod-links{
+.download-links{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap:10px;
     margin-bottom: 2rem;
 }
 
-.downlod-links a{
+.download-links a{
     text-align:center;
     background: var(--clr-cerulean);
     padding:12px 20px;
     color: var(--clr-light);
-    letter-spacing:1px;
+    letter-spacing:2px;
     font-size: 500;
 }
 
-.downlod-links a:hover{
+.download-links a:hover{
     background: var(--clr-dark);
     color: var(--clr-cerulean);
     transition: 0.3s all linear;
